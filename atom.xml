@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxyi7309.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-24T08:44:20.692Z</updated>
+    <updated>2020-07-24T08:51:07.805Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxyi7309.github.io"/>
     <link rel="self" href="https://zxyi7309.github.io/atom.xml"/>
@@ -20,20 +20,20 @@
 <p>「确定这篇文章对研究方向是否值得一读，该怎么读」。</p>
 <p><strong>标题、关键字；</strong></p>
 <p><strong>摘要Abstract</strong>：文章的主要研究手段和研究成果；</p>
-<p>**结论Conclusion：**结论部分与课题高度相关。</p>
+<p><strong>结论Conclusion</strong>：结论部分与课题高度相关。</p>
 <h1 id="第二步-阅读文章-read-the-paper">第二步, 阅读文章 （Read the Paper）</h1>
 <p>「确认这篇文章是否值得精读」。</p>
 <p>先扫一遍<strong>图表</strong>以及他们的标题、图注；</p>
 <p>然后回到<strong>引言</strong>部分，去了解研究开展的背景、作者为什么要展开这项研究。</p>
 <p>与自身科研课题的对比来确定是否继续精读剩下的章节。</p>
-<p>#第三步, 精读文献（Intensive Reading- dig deeply and get the details）<br>
-「了解文章的细节信息，包括实验具体步骤等，对自身科研项目的参考价值」。</p>
+<h1 id="第三步-精读文献intensive-reading-dig-deeply-and-get-the-details">第三步, 精读文献（Intensive Reading- dig deeply and get the details）</h1>
+<p>「了解文章的细节信息，包括实验具体步骤等，对自身科研项目的参考价值」。</p>
 <p>深度挖掘文章的结果和讨论部分，尤其是<strong>实验部分</strong>。</p>
 <p>对细节信息的研读，了解作者是<strong>如何开展实验，获取初始数据，进行数据分析，解读数据内涵</strong>等等。</p>
-<p>#第四步, 做笔记（Take Notes）<br>
-「梳理对于文章的理解，列出对自己有价值核心信息，方便在后面的科研中通过笔记快速定位相关文献」。</p>
+<h1 id="第四步-做笔记take-notes">第四步, 做笔记（Take Notes）</h1>
+<p>「梳理对于文章的理解，列出对自己有价值核心信息，方便在后面的科研中通过笔记快速定位相关文献」。</p>
 <p>文献管理软件（Endnote、Mendeley都行）来完成做笔记的工作</p>
-<p>可以在笔记中**「用一句话（英文）概括实验、结果、讨论章节中的每一段内容，组成一个阅读笔记」**。</p>
+<p>可以在笔记中<strong>用一句话（英文）概括实验、结果、讨论章节中的每一段内容，组成一个阅读笔记</strong>。</p>
 <p>文中某个<strong>新的实验方法、异于其他研究的实验条件、阅读时自己的新想法</strong>等等。</p>
 <pre><code>   精读文献并认真做笔记并不代表读者对于这篇文章的消化过程就此终止，优秀的科研论文、大牛的研究著作依然是常读常新，每位从事科研学习和工作的人在不同的时期都能从中汲取养分。
 
@@ -54,14 +54,14 @@
 <p>https://www.jianshu.com/p/3f4c2d265790</p>
 <h1 id="t-pls">T-PLS:</h1>
 <p>Total Projection to Latent Structures for Process Monitoring<br>
-https://www.jianshu.com/p/222c2d700388<br>
-#C-PLS:<br>
-https://www.jianshu.com/p/8707e868e7ae<br>
-#M-PLS：<br>
-Multiblock PLS-based localized processdiagnosis<br>
+https://www.jianshu.com/p/222c2d700388</p>
+<h1 id="c-pls">C-PLS:</h1>
+<p>https://www.jianshu.com/p/8707e868e7ae</p>
+<h1 id="m-pls">M-PLS：</h1>
+<p>Multiblock PLS-based localized processdiagnosis<br>
 https://www.jianshu.com/p/eea1016e9464</p>
-<p>#几种方法比较：<br>
-Geometric properties of partial least squares for process monitoring<br>
+<h1 id="几种方法比较">几种方法比较：</h1>
+<p>Geometric properties of partial least squares for process monitoring<br>
 https://www.jianshu.com/p/6b4dd1ce2435</p>
 <p>A comparison and evaluation of key performance indicator-based multivariate statistics process monitoring approaches<br>
 https://www.jianshu.com/p/f8f8321cc081</p>
@@ -77,12 +77,12 @@ https://www.jianshu.com/p/f8f8321cc081</p>
 <img src="https://zxyi7309.github.io/post-images/1595579311041.png" alt="" loading="lazy"></p>
 <h1 id="卸载-onedrive">卸载 OneDrive</h1>
 <p>若要卸载 OneDrive ，请按照下列步骤操作：</p>
-<p>**注意:**在计算机上禁用、卸载或取消链接OneDrive 不会丢失文件或数据。 始终都可通过联机登录 OneDrive 帐户来访问文件。</p>
+<p><strong>注意</strong>在计算机上禁用、卸载或取消链接OneDrive 不会丢失文件或数据。 始终都可通过联机登录 OneDrive 帐户来访问文件。</p>
 <p>按 Windows 键  + R以打开运行窗口。</p>
 <p>键入appwiz ，然后单击&quot;确定&quot;。</p>
 <p>在列表中找到Microsoft OneDrive ，然后右键单击以将其卸载。</p>
 <p>如果此方法不成功，请按照下列步骤操作：</p>
-<p>**注意:**在编辑注册表之前，我们建议您备份注册表。 如果出现问题，您可以将注册表还原到以前的状态。  了解更多关于如何备份和还原 Windows 注册表。</p>
+<p><strong>注意</strong>:在编辑注册表之前，我们建议您备份注册表。 如果出现问题，您可以将注册表还原到以前的状态。  了解更多关于如何备份和还原 Windows 注册表。</p>
 <p>按 Windows 键  + R以打开运行窗口。</p>
 <p>键入 regedit，然后单击“确定”。</p>
 <p>将此路径粘贴到注册表编辑器顶部的导航栏中：</p>
