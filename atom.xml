@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxyi7309.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-07-24T08:51:07.805Z</updated>
+    <title>Miss Zhang </title>
+    <updated>2020-07-24T09:23:21.397Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxyi7309.github.io"/>
     <link rel="self" href="https://zxyi7309.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>生命中曾经拥有过的灿烂</subtitle>
     <logo>https://zxyi7309.github.io/images/avatar.png</logo>
     <icon>https://zxyi7309.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Miss Zhang </rights>
     <entry>
         <title type="html"><![CDATA[How to read the paper]]></title>
         <id>https://zxyi7309.github.io/post/how-to-read-the-paper/</id>

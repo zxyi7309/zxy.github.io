@@ -1,101 +1,102 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>PCA与PLS笔记 | Gridea</title>
-<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1595580616868">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>PCA与PLS笔记 | Miss Zhang </title>
+<meta name="description" content="生命中曾经拥有过的灿烂">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1595581962251">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zxyi7309.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="PCA与PLS笔记 | Gridea - Atom Feed" href="https://zxyi7309.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="主成分分析方法PCA(Principal Component Analysis )：
-https://www.jianshu.com/p/ba2573b70ca1
-偏最小二乘PLS(Partial Least Squares)：
-https..." />
-    <meta name="keywords" content="经典论文-故障" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://zxyi7309.github.io">
-  <img class="avatar" src="https://zxyi7309.github.io/images/avatar.png?v=1595580616868" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://zxyi7309.github.io">
+        <img class="avatar" src="https://zxyi7309.github.io/images/avatar.png?v=1595581962251" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://zxyi7309.github.io">
+        <h1 class="site-title">Miss Zhang </h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              PCA与PLS笔记
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-07-24
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-                <a href="https://zxyi7309.github.io/tag/4Wks5pfLg/" class="post-tag">
-                  # 经典论文-故障
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">PCA与PLS笔记</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-07-24</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <h1 id="主成分分析方法pcaprincipal-component-analysis">主成分分析方法PCA(Principal Component Analysis )：</h1>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://zxyi7309.github.io/tag/4Wks5pfLg/">
+                    经典论文-故障
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="主成分分析方法pcaprincipal-component-analysis">主成分分析方法PCA(Principal Component Analysis )：</h1>
 <p>https://www.jianshu.com/p/ba2573b70ca1</p>
 <h1 id="偏最小二乘plspartial-least-squares">偏最小二乘PLS(Partial Least Squares)：</h1>
 <p>https://www.jianshu.com/p/3f4c2d265790</p>
@@ -113,84 +114,57 @@ https://www.jianshu.com/p/6b4dd1ce2435</p>
 <p>A comparison and evaluation of key performance indicator-based multivariate statistics process monitoring approaches<br>
 https://www.jianshu.com/p/f8f8321cc081</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li><a href="#%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95pcaprincipal-component-analysis">主成分分析方法PCA(Principal Component Analysis )：</a></li>
-<li><a href="#%E5%81%8F%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98plspartial-least-squares">偏最小二乘PLS(Partial Least Squares)：</a></li>
-<li><a href="#t-pls">T-PLS:</a></li>
-<li><a href="#c-pls">C-PLS:</a></li>
-<li><a href="#m-pls">M-PLS：</a></li>
-<li><a href="#%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95%E6%AF%94%E8%BE%83">几种方法比较：</a></li>
-</ul>
-
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://zxyi7309.github.io/post/test/">
+            <a class="purple-link" href="https://zxyi7309.github.io/post/test/">
               <h3 class="post-title">
-                修复“已安装较新版本的 OneDrive”的问题
+                下一篇：修复“已安装较新版本的 OneDrive”的问题
               </h3>
             </a>
           </div>
-        
+          
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://zxyi7309.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">生命中曾经拥有过的灿烂</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by zxyxueyi@163.com | <a class="rss" href="https://zxyi7309.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
