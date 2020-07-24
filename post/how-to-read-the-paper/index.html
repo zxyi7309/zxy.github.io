@@ -1,92 +1,105 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>How to read the paper | Miss Zhang </title>
-<meta name="description" content="生命中曾经拥有过的灿烂">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1595582634688">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1595582729400">
 <link rel="stylesheet" href="https://zxyi7309.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="第一步, 初筛论文（Surveying the Article）
+「确定这篇文章对研究方向是否值得一读，该怎么读」。
+标题、关键字；
+摘要Abstract：文章的主要研究手段和研究成果；
+结论Conclusion：结论部分与课题高度相关。
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://zxyi7309.github.io">
-        <img class="avatar" src="https://zxyi7309.github.io/images/avatar.png?v=1595582634688" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://zxyi7309.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zxyi7309.github.io">
+        <img src="https://zxyi7309.github.io/images/avatar.png?v=1595582729400" class="site-logo">
         <h1 class="site-title">Miss Zhang </h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      生命中曾经拥有过的灿烂
+    </div>
+    <div class="site-footer">
+      Powered by zxyxueyi@163.com | <a class="rss" href="https://zxyi7309.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">How to read the paper</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-07-24</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">How to read the paper</h2>
+            <div class="post-date">2020-07-24</div>
             
-          </div>
-          <div class="post-content">
-            <h1 id="第一步-初筛论文surveying-the-article">第一步, 初筛论文（Surveying the Article）</h1>
+            <div class="post-content" v-pre>
+              <h1 id="第一步-初筛论文surveying-the-article">第一步, 初筛论文（Surveying the Article）</h1>
 <p>「确定这篇文章对研究方向是否值得一读，该怎么读」。</p>
 <p><strong>标题、关键字；</strong></p>
 <p><strong>摘要Abstract</strong>：文章的主要研究手段和研究成果；</p>
@@ -111,45 +124,31 @@
 </code></pre>
 <figure data-type="image" tabindex="1"><img src="https://zxyi7309.github.io/post-images/1595580237104.png" alt="" loading="lazy"></figure>
 
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zxyi7309.github.io/post/ji-pian-lun-wen-bi-ji/">
+                  <h3 class="post-title">
+                    PCA与PLS笔记
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://zxyi7309.github.io/post/ji-pian-lun-wen-bi-ji/">
-              <h3 class="post-title">
-                下一篇：PCA与PLS笔记
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">生命中曾经拥有过的灿烂</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by zxyxueyi@163.com | <a class="rss" href="https://zxyi7309.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -159,6 +158,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
