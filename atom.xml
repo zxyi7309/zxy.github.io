@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxyi7309.github.io</id>
     <title>Miss Zhang </title>
-    <updated>2020-07-29T11:17:01.278Z</updated>
+    <updated>2020-07-29T11:18:55.753Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxyi7309.github.io"/>
     <link rel="self" href="https://zxyi7309.github.io/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://zxyi7309.github.io/images/avatar.png</logo>
     <icon>https://zxyi7309.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Miss Zhang </rights>
-    <entry>
-        <title type="html"><![CDATA[Miss Zhang]]></title>
-        <id>https://zxyi7309.github.io/post/miss-zhang/</id>
-        <link href="https://zxyi7309.github.io/post/miss-zhang/">
-        </link>
-        <updated>2020-07-29T11:15:21.000Z</updated>
-        <content type="html"><![CDATA[<p>立志发表SCI的渣硕</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[时域特征和频域特征]]></title>
         <id>https://zxyi7309.github.io/post/shi-yu-te-zheng-he-pin-yu-te-zheng/</id>
