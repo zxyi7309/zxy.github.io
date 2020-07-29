@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1595756231000">
+<link rel="shortcut icon" href="https://zxyi7309.github.io/favicon.ico?v=1596021418739">
 <link rel="stylesheet" href="https://zxyi7309.github.io/styles/main.css">
 
 
@@ -20,7 +20,7 @@
 
     <meta name="description" content="1 时域特征：
 1.1 含量纲的时域特征：
-峰值、最大值(maximum）、最小值(minimum)、方差、极差(range)、均值(mean)、中位数(media)、众数(mode)、标准差(standard deviation)、均方根..." />
+峰值、峰峰值、最大值(maximum）、最小值(minimum)、方差、极差(range)、均值(mean)、中位数(media)、众数(mode)、标准差(standard deviation)..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://zxyi7309.github.io">
-        <img src="https://zxyi7309.github.io/images/avatar.png?v=1595756231000" class="site-logo">
+        <img src="https://zxyi7309.github.io/images/avatar.png?v=1596021418739" class="site-logo">
         <h1 class="site-title">Miss Zhang </h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -58,7 +58,7 @@
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="https://zxyi7309.github.io/post/miss-zhang" class="site-nav">
             关于
           </a>
         
@@ -96,13 +96,23 @@
             <div class="post-date">2020-07-26</div>
             
             <div class="post-content" v-pre>
-              <p>1 时域特征：<br>
-1.1 含量纲的时域特征：<br>
-峰值、最大值(maximum）、最小值(minimum)、方差、极差(range)、均值(mean)、中位数(media)、众数(mode)、标准差(standard deviation)、均方根值(root mean square/rms)、均方值(mean square/ms)、k阶中心/原点矩<br>
+              <h1 id="1-时域特征">1 时域特征：</h1>
+<p>1.1 含量纲的时域特征：<br>
+峰值、峰峰值、最大值(maximum）、最小值(minimum)、方差、极差(range)、均值(mean)、中位数(media)、众数(mode)、标准差(standard deviation)、均方根值(root mean square/rms)、均方值(mean square/ms)、k阶中心/原点矩<br>
 1.2 无量纲的时域：<br>
-偏度(skewness)，峰度(kurtosis)，峰度因子(kurtosis factor)、波形因子(waveform factor)、脉冲因子(pulse factor)、裕度因子(margin factor)。<br>
-2<br>
-<img src="https://zxyi7309.github.io/post-images/1595755990898.png" alt="" loading="lazy"></p>
+偏度(skewness)，峰度(kurtosis)，峰度因子(kurtosis factor)、峰值因子、波形因子(waveform factor)、脉冲因子(pulse factor)、裕度因子(margin factor)。</p>
+<h1 id="2-频域特征">2 频域特征</h1>
+<p><img src="https://zxyi7309.github.io/post-images/1595755990898.png" alt="" loading="lazy"><br>
+频域分析方法：<br>
+傅里叶变换( fast Fourier transform,FFT)<br>
+包络解调(envelope demodulation)、倒谱(cepstrum)、高阶谱(high-order spectrum)、全谱( holospectrum)</p>
+<h1 id="3-时频分析">3 时频分析</h1>
+<p>短时傅立叶变换(short-time Fourier transform ,STFT)<br>
+Wigner–Ville distribution<br>
+Choi–Williams distribution<br>
+小波变换（wavelet (packet)transformation）<br>
+经验模式分解（empirical mode decomposition ,EMD）<br>
+循环平稳分析（cyclostationary analysis）</p>
 
             </div>
             
