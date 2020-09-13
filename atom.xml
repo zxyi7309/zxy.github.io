@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxyi7309.github.io</id>
     <title>Miss Zhang </title>
-    <updated>2020-09-13T07:32:31.102Z</updated>
+    <updated>2020-09-13T07:35:20.298Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxyi7309.github.io"/>
     <link rel="self" href="https://zxyi7309.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://zxyi7309.github.io/images/avatar.png</logo>
     <icon>https://zxyi7309.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Miss Zhang </rights>
+    <entry>
+        <title type="html"><![CDATA[相似性度量方法总结]]></title>
+        <id>https://zxyi7309.github.io/post/xiang-si-xing-du-liang-fang-fa-zong-jie/</id>
+        <link href="https://zxyi7309.github.io/post/xiang-si-xing-du-liang-fang-fa-zong-jie/">
+        </link>
+        <updated>2020-09-13T07:33:16.000Z</updated>
+        <content type="html"><![CDATA[<p>1.欧氏距离(Euclidean Distance)<br>
+<img src="https://zxyi7309.github.io/post-images/1599982477540.jpg" alt="" loading="lazy"></p>
+<p>以古希腊数学家欧几里得命名的距离；也就是我们直观的两点之间直线最短的直线距离</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[时域特征和频域特征]]></title>
         <id>https://zxyi7309.github.io/post/shi-yu-te-zheng-he-pin-yu-te-zheng/</id>
