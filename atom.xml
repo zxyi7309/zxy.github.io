@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxyi7309.github.io</id>
     <title>Miss Zhang </title>
-    <updated>2020-09-13T07:35:20.298Z</updated>
+    <updated>2020-09-13T07:43:01.198Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxyi7309.github.io"/>
     <link rel="self" href="https://zxyi7309.github.io/atom.xml"/>
@@ -17,8 +17,33 @@
         </link>
         <updated>2020-09-13T07:33:16.000Z</updated>
         <content type="html"><![CDATA[<p>1.欧氏距离(Euclidean Distance)<br>
-<img src="https://zxyi7309.github.io/post-images/1599982477540.jpg" alt="" loading="lazy"></p>
-<p>以古希腊数学家欧几里得命名的距离；也就是我们直观的两点之间直线最短的直线距离</p>
+2.曼哈顿距离(Manhattan Distance)<br>
+3.切比雪夫距离(Chebyshev Distance)<br>
+4.闵可夫斯基距离(Minkowski Distance)<br>
+5.标准化欧氏距离(Standardized Euclidean Distance)<br>
+6.马氏距离(Mahalanobis Distance)<br>
+7.余弦距离(Cosine Distance)<br>
+8.皮尔逊相关系数(Pearson Correlation)<br>
+9.汉明距离(Hamming Distance)<br>
+10.杰卡德相似系数(Jaccard Similarity Coefficient)<br>
+11.Ochiai Coefficient<br>
+11.布雷柯蒂斯距离(Bray Curtis Distance)<br>
+12.Hausdorff距离<br>
+13.Levenshtein Distance(Edit Distance)<br>
+14.堪培拉距离(Canberra Distance)<br>
+15.卡方检验<br>
+16.相对熵/KL散度<br>
+17.交叉熵<br>
+18.JS散度<br>
+19.Hellinger distance<br>
+20.F散度<br>
+21.巴氏距离(Bhattacharyya Distance)<br>
+22.MMD距离(Maximum mean discrepancy)<br>
+23.Wasserstein distance<br>
+24.点对互信息 PMI(Pointwise Mutual Information)<br>
+参考：<br>
+https://www.cnblogs.com/heaad/archive/2011/03/08/1977733.html<br>
+https://blog.csdn.net/weixin_43840403/article/details/89075759</p>
 ]]></content>
     </entry>
     <entry>
